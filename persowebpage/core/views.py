@@ -20,7 +20,7 @@ def research():
     return render_template('research.html')
 
 @core.route('/License')
-def License():
+def license():
     '''
     Example view of any other "core" page. Such as a info page, about page,
     contact page. Any page that doesn't really sync with one of the models.
