@@ -1,8 +1,47 @@
 {% extends "base.html" %}
 
 {% block content %}
-<div class="jumbotron">
-  <h1> teaching </h1>
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<div class="jumbotron jumbotron-fluid">
+  <h1>Teaching </h1>
+  <br>
+  <br>
+  <p>It doesn't matter how beautiful your theory is, it doesn't matter how smart you are. If it doesn't agree with experiment, it's wrong. </p>
+  <p>Richard P. Feynman</p>
+
 </div>
+
+  <div class="container">
+    <p>
+      I teach statistics and programming with R and Python to undergraduate and postgraduate students. My main courses focus on linear model, generalized linear model and time series analysis.
+    </p>
+    <br>
+
+    <ul class="list-unstyled">
+      <li class="media">
+        <img src="../static/stat/ts.jpg" class="mr-3" alt="..." style="width:125px;height:125px;">
+        <div class="media-body">
+          <h5 class="mt-0 mb-1"><a href="https://github.com/xbouteiller/TimeSeries">Time series analysis</a></h5>
+          <br>
+<p>This course focus on statistical mpdels useful for analysing time series from AR to SARIMA models.</p>
+
+
+        </div>
+      </li>
+      <li class="media my-4">
+        <img src="../static/stat/anova.jpg" class="mr-3" alt="..." style="width:125px;height:125px;">
+        <div class="media-body">
+          <h5 class="mt-0 mb-1"><a href="https://github.com/xbouteiller/CoursDA">Linear model</a></h5>
+          <br>
+          <p>2 Html files developped with Rmarkdown in order to teach linear regression and anova.</p>
+
+
+      </li>
+
+    </ul>
+
+  </div>
+
+
+
+
 {% endblock %}
