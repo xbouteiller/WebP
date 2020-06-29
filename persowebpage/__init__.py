@@ -29,16 +29,20 @@ app.config['SECRET_KEY'] = 'mysecret'
 
 #####################################################
 
+from persowebpage.contact.views import contact
 from persowebpage.core.views import core
 from persowebpage.error_pages.handlers import error_pages
 from persowebpage.method.views import method
 from persowebpage.publication.views import publication
 from persowebpage.research.views import research
 from persowebpage.teaching.views import teaching
+from persowebpage.vitae.views import vitae
 
+app.register_blueprint(contact)
 app.register_blueprint(core)
 app.register_blueprint(error_pages)
 app.register_blueprint(method)
 app.register_blueprint(publication)
 app.register_blueprint(research)
 app.register_blueprint(teaching)
+app.register_blueprint(vitae)
