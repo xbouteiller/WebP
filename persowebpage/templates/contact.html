@@ -1,1 +1,22 @@
-<h1>contact</h1>
+{% extends "base.html" %}
+
+{% block content %}
+<div class="jumbotron">
+  <h1> Contact </h1>
+</div>
+
+<div class="bd-example">
+  <address>
+    <strong>UMR BIOGECO, University of Bordeaux</strong><br/>
+    Bat B2, Allée Geoffroy St-Hilaire<br/>
+    33615 Pessac, France<b/>
+    <!-- <abbr title="Phone">P:</abbr> (123) 456-7890 -->
+  </address>
+
+  <address>
+    <strong>Dr Xavier Bouteiller</strong><br />
+    <a href="mailto:bouteiller.xavier@gmail.com">bouteiller(dot)xavier(at)gmail(dot)com</a>
+  </address>
+</div>
+
+{% endblock %}
